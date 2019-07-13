@@ -1,0 +1,82 @@
+body{
+	font-family: Overpass;
+	font-weight: bold;
+	margin: 0;
+}
+h1 {
+	font-family: cursive;
+	font-size: 300%;
+	font-weight: bold;
+	color: red;
+
+}
+h2 {
+	font-family: Chivo;
+	color: #23231A;
+	font-size: 200%;
+	font-weight: bold;
+	}
+	h3 {
+		font-family: Giveny;
+		color: #23231A;
+		font-size: 180%;
+		font-weight: bold;
+	}
+	p
+	{
+		color: #931F1D;
+		font-size: 150%;
+	}
+	a{
+		text-decoration: none;
+		color: white;
+		font-weight: bold;
+	}
+	a:hover {
+		color: white;
+	}
+	img{
+		width: 200px;
+		height: 300px;
+		object-fit: cover;
+
+	}
+	.btn-blue{
+		padding: 20px 30px;
+		margin: 30px;
+		border-radius: 30px;
+		background-color: black;
+		transition: 3s;
+		box-shadow: 5px 5px 5px white;
+	}
+	.btn-blue: hover{
+		color: white;
+	}
+	#banner{
+		
+		background-image:url(images/background.jpg);
+		background-size: cover;
+		background-position: center;
+		padding: 150px 0;
+		text-align: center;
+
+
+	}
+	.cards{
+		display: flex;
+		justify-content: space-around;
+	}
+	.card{
+		background-color:#F3E8EE;
+		box-shadow: 0 0 10px rgba(0,0,0,0,1);
+		border-radius: 5px;
+		width: 200px;
+		padding: 24px;
+		text-align: center;
+		margin: 15px;
+
+	}
+	#footer p {
+		color: black;
+		text-align: center;
+	}
